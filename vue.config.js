@@ -11,7 +11,8 @@ module.exports = {
         W18: "W18",
         lyoko: "Code Lyoko Weekend",
         seoul2: "Seoul Weekend (2)",
-        W19: "W19"
+        W19: "W19",
+        midtown: "Midtown, Manhattan"
       }
     },
     "Test Page": {
