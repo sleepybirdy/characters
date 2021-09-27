@@ -107,5 +107,19 @@ module.exports = {
         "The Pigpen Shop": "https://docs.google.com/document/d/1xEfdqemHpvjU4m4oXCcT_sk52Lxp5cbtcl9_uBgffQM/",
       }
     },
+    "Midtown": {
+      entry: "src/main.js",
+      title: "Midtown Manhattan Characters",
+      filename: "midtown/index.html",
+      sheetKeys: [
+        "2PACX-1vTe0SwrQWArGFTzDrkTjd1dsDtZfWDowbgaZ_UwT90lSW6GKuUljUxhinSNspD1WGL379XK7HklmMhE"
+      ],
+      additionalLinks: {
+        "Data": "https://docs.google.com/spreadsheets/d/1rDWhguSzJt8orQcreStkadsWmYcAgeZ2gziQGumofbs/"
+      },
+      overrides: {
+        Yen: { name: "$"}
+      }
+    },
   },
 };
