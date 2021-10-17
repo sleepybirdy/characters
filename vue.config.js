@@ -5,14 +5,15 @@ module.exports = {
       entry: "src/index.js",
       title: "The Reaper's Game Character Sheets",
       weeks: { // [path]: [display name]
-        W17: "W17",
+        W17: "Week 17",
         haunted: "Haunted Weekend",
         seoul: "Seoul Weekend (1)",
-        W18: "W18",
+        W18: "Week 18",
         lyoko: "Code Lyoko Weekend",
         seoul2: "Seoul Weekend (2)",
-        W19: "W19",
-        midtown: "Midtown, Manhattan"
+        W19: "Week 19",
+        midtown: "Midtown, Manhattan",
+        W20: "Week 20"
       }
     },
     "Test Page": {
@@ -120,6 +121,17 @@ module.exports = {
       },
       overrides: {
         Yen: { name: "$"}
+      }
+    },
+    "Week 20": {
+      entry: "src/main.js",
+      title: "Week 20 Characters",
+      filename: "W20/index.html",
+      sheetKeys: [
+        "2PACX-1vTkIQFyu_wFzSQ1MmDlrOso85KGBz7lTDT818jtpeQEpRTk77uoMqRkW7UG3Ajjvad3nNcXEQ3H76ac"
+      ],
+      additionalLinks: {
+        "Data": "https://docs.google.com/spreadsheets/d/1R2qeDpJh7Xnoi8bpPlTpLYbgbgBo0ogF-zMBpAjnGKE/"
       }
     },
   },
