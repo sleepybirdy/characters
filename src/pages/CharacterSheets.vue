@@ -62,7 +62,6 @@
       <Loader v-show="!loaded" />
       <template v-if="loaded">
         <TabContent v-show="activeIndex === -1" :key="'overview'">
-          <template #title>Overview</template>
           <template #hero>
             <table class="overview-table">
               <tr>
@@ -181,7 +180,7 @@ export default {
           return this.reaperSheets[this.rLen - 1];
         } else if (this.activeIndex >= this.pLen) {
           return this.reaperSheets[this.activeIndex - this.pLen];
-        } else if (this.activeIndex > 0) {
+        } else if (this.activeIndex >= 0) {
           return this.playerSheets[this.activeIndex];
         }
       }
