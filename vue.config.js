@@ -131,7 +131,8 @@ module.exports = {
         "2PACX-1vTkIQFyu_wFzSQ1MmDlrOso85KGBz7lTDT818jtpeQEpRTk77uoMqRkW7UG3Ajjvad3nNcXEQ3H76ac"
       ],
       additionalLinks: {
-        "Data": "https://docs.google.com/spreadsheets/d/1R2qeDpJh7Xnoi8bpPlTpLYbgbgBo0ogF-zMBpAjnGKE/"
+        "Data": "https://docs.google.com/spreadsheets/d/1R2qeDpJh7Xnoi8bpPlTpLYbgbgBo0ogF-zMBpAjnGKE/",
+        "Story Log": "https://docs.google.com/document/d/1iBO3ntEkd54DIxWrVxaqKlApbrLy0pd2UYppg6HSi88/edit?usp=sharing"
       }
     },
   },
