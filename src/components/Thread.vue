@@ -5,6 +5,7 @@
         <div class="flex">
           <span class="text-smaller">{{ data.ID }}</span>
           <b>{{ data.Name }}</b>
+          <span class="text-smaller">BRV: {{ data.BRV }}</span>
         </div>
         <div class="text-small">
           {{ boosts }}
@@ -75,3 +76,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  .text-smaller:last-child {
+    margin-left: 0.5em;
+  }
+</style>
