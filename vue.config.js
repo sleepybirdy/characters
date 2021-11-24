@@ -145,9 +145,7 @@ module.exports = {
       overrides: {
         SYNC: { name: "CDMG" },
         Yen: { name: "MORA" },
-        PP: { name: "AP" },
-        Entry Fee: { name: "Vision"},
-        Reason to Live: {name: "Background Info"},
+        PP: { name: "AP" }
       },
       additionalLinks: {
         Data: "https://docs.google.com/spreadsheets/d/1WQhPYz4bQEvuQbmg41DwIUVanwX56wDzQV2Q5N0YDgI/",
