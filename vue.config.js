@@ -135,5 +135,23 @@ module.exports = {
         "Story Log": "https://docs.google.com/document/d/1iBO3ntEkd54DIxWrVxaqKlApbrLy0pd2UYppg6HSi88/edit?usp=sharing"
       }
     },
+    "Teyvat": {
+      entry: "src/main.js",
+      title: "Teyvat Characters",
+      filename: "teyvat/index.html",
+      sheetKeys: [
+        "2PACX-1vSHMZ6y4aOyruqLy3LrUKu3umHOYiehrmVvV5hIvB8qSLVHYp-JVt9riyAI6yfYg9rj2pHrtZMitrDV",
+      ],
+      overrides: {
+        SYNC: { name: "CDMG" },
+        Yen: { name: "MORA" },
+        PP: { name: "AP" },
+        Entry Fee: { name: "Vision"},
+        Reason to Live: {name: "Background Info"},
+      },
+      additionalLinks: {
+        Data: "https://docs.google.com/spreadsheets/d/1WQhPYz4bQEvuQbmg41DwIUVanwX56wDzQV2Q5N0YDgI/",
+        "Teyvat Info": "https://docs.google.com/document/d/1hhYn85pWp3rHYVaVOePE88e9wOSiz1K7j6x796uXICE/edit",
+      },
   },
 };
