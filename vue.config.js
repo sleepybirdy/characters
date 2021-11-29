@@ -13,7 +13,8 @@ module.exports = {
         seoul2: "Seoul Weekend (2)",
         W19: "Week 19",
         midtown: "Midtown, Manhattan",
-        W20: "Week 20"
+        W20: "Week 20",
+        teyvat: "Teyvat/Genshin Weekend"
       }
     },
     "Test Page": {
